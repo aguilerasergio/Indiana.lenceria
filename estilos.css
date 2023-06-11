@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+body{
+  background:rgb(249,192,147); 
+}
+h1{
+  color:black;
+}
+header{
+    border-bottom:4px solid rgb(211, 205, 177);
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+   text-align: center;
+}
+ header,section{
+  display: block;
+  margin:2px auto;
+  display: flex;
+ }
+
+ul li{
+  float: left;
+  list-style: none;
+}
+.icon{
+  width:50px;
+  margin: 5px 40px; 
+}
+.inicio{
+  margin: 5px 30px;
+}
+.promociones{
+  margin: 5px 40px;
+}
+.stok{
+  margin: 5px 30px;
+}
+.instagram{
+  width: 60px;
+  margin-left: 240px;
+  float: right;
+}
+.portada{
+  width: 70%;
+  height: 400px;
+  display: flex;
+  margin: 35px auto;
+}
+
+footer{
+  float: right;
+  font: 13px bold sanserif;
+  color:rgb(158, 138, 138);
+  margin-top: 45px;
+  margin-bottom: 2px;
+  margin-right: 30px;
+}
